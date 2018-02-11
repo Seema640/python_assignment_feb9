@@ -8,7 +8,7 @@ class student:
     def get_string2(self):
         self.lstr=lstr
     def update_firstname(self):
-        print("Dear {}{},I would like to ............".format(self.fstr,self.lstr))
+        print("{}.{}@gmail.com".format(self.fstr,self.lstr))
 
 fstr=input("Enter your firstname:")
 lstr=input("Enter your lastname:")
